@@ -19,6 +19,9 @@ public class Usuario {
     @Column(name = "nome", length = 200, nullable = true)
     private String nome;
 
+    @Column(name = "username", length = 100, nullable = true)
+    private String username;
+
     @Column(name = "email", length = 50, nullable = true)
     private String email;
 
@@ -48,6 +51,12 @@ public class Usuario {
     }
     public String getSenha() {
         return senha;
+    }
+    public String getUsername() {
+        return username;
+    }
+    public void setUsername(String username) {
+        this.username = username;
     }
     public void setSenha(String senha) {
         this.senha = senha;
