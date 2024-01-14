@@ -15,6 +15,8 @@ MySQL
 
 IDE: eclipse, intellij ou Vscode
 
+------------------
+
 Use o comando: git clone https://github.com/victor-delfino/Web-API-Java
 
 Para criar uma cópia do meu código e você poder utilizar.
