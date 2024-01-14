@@ -39,6 +39,7 @@ Configure as credenciais do banco de dados no arquivo src/main/resources/applica
 spring.datasource.url=jdbc:mysql://localhost:3306/usuarios
 
 spring.datasource.username=seu_usuario
+
 spring.datasource.password=sua_senha
 
 Estrutura do Projeto
