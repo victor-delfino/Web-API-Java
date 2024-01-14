@@ -26,10 +26,15 @@ create database usuarios;
 use usuarios;
 
 create table usuario(
+
 	  id				integer auto_increment primary key,
+   
     nome			varchar(200) not null,
+    
     email			varchar(50) not null unique,
+    
     senha 			text not null,
+    
     telefone		varchar(15) not null
 
 );
@@ -53,9 +58,13 @@ Entidade 'Usuario'
 A entidade Usuario representa os usuários da aplicação e possui os seguintes campos:
 
 id (Integer): Identificador único do usuário.
+
 nome (String): Nome do usuário.
+
 email (String): Endereço de e-mail do usuário.
+
 senha (String): Senha do usuário.
+
 telefone (String): Número de telefone do usuário.
 
 RestController
