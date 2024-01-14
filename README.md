@@ -1,6 +1,6 @@
-Projeto Web Spring Boot com MySQL!
+Projeto Web Spring Boot com MySQL
 
-Bem-vindo ao Projeto Exemplo Spring Boot com MySQL! Este projeto é uma aplicação Java construída com o framework Spring Boot e utiliza um banco de dados MySQL para armazenamento de dados.
+Bem-vindo ao Projeto Spring Boot com MySQL! Este projeto é uma aplicação Java construída com o framework Spring Boot e utiliza um banco de dados MySQL para armazenamento de dados.
 
 O objetivo geral do Projeto até o momento foi: realizar a integração com o front/back permitindo a realização do cadastro ser salva no banco de dados e a operação retornar o http 200.
 
