@@ -8,8 +8,11 @@ Configuração do Ambiente
 Pré-requisitos
 
 JDK 11 ou superior
+
 Maven
+
 MySQL
+
 IDE: eclipse, intellij ou Vscode
 
 Use o comando: git clone https://github.com/victor-delfino/Web-API-Java
