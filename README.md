@@ -36,7 +36,8 @@ create table usuario(
 
 Configure as credenciais do banco de dados no arquivo src/main/resources/application.properties.
 
-spring.datasource.url=jdbc:mysql://localhost:3306/projeto_db
+spring.datasource.url=jdbc:mysql://localhost:3306/usuarios
+
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 
