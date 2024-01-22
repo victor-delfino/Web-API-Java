@@ -1,9 +1,9 @@
 package br.com.api.projeto.DAO;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.com.api.projeto.entidade.Usuario;
 
-public interface InterfaceUsuario extends CrudRepository<Usuario, Integer>{
+public interface InterfaceUsuario extends JpaRepository<Usuario, Integer>{
     
 }

@@ -5,18 +5,31 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
-    <title>Projeto web API Java</title>
+    <title>Projeto Web API Java</title>
 </head>
 <body>
-    <div class="box">
+    <header>
         <h1>Cadastro</h1>
-    <form action="">
-        <input type="text" class="nome" name="nome" placeholder="Nome">
-        <input type="text" class="email" name="email" placeholder="Email">
-        <input type="password" class="senha" name="senha" placeholder="Senha">
-        <input type="text" class="tel" name="tel" placeholder="Telefone">
-        <button>Cadastrar</button>
-    </form>
-   </div>
+    </header>
+    <div class="box">
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" class="nome" name="nome" placeholder="Nome">
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" class="email" name="email" placeholder="Email">
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" class="senha" name="senha" placeholder="Senha">
+
+            <label for="tel">Telefone:</label>
+            <input type="text" id="tel" class="tel" name="tel" placeholder="Telefone">
+
+            <button>Cadastrar</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Projeto Web API Java. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
